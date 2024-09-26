@@ -29,7 +29,7 @@ Team Firetruck: Roles, First and Last Names
 ## Team Policies
 
 ### Communication Policy
-- The @team-f channel in the COS420 Discord server will serve as our primary form of communication. Members are expected to reply to messages as promptly as they can. There is no structured amount of time that anyone is expected to respond, as long as responses are being sent within a reasonable amount of time (less than 12 hours). The @everyone tag is reserved ONLY for cases where everyone's attention is truly needed. It is appropriate to use the @mention tag whenever necessary to get the attention of a single individual or a select few individuals. Questions, comments and concerns should be clear and directly situated for the appropriate person and it should not be confusing who the message is intended for.
+- The **@team-f** channel in the COS420 Discord server will serve as our primary form of communication. Members are expected to reply to messages as promptly as they can. There is no structured amount of time that anyone is expected to respond, as long as responses are being sent within a reasonable amount of time (less than 12 hours). The **@everyone** tag is reserved ONLY for cases where everyone's attention is truly needed. It is appropriate to use the **@mention** tag whenever necessary to get the attention of a single individual or a select few individuals. Questions, comments and concerns should be clear and directly situated for the appropriate person and it should not be confusing who the message is intended for.
 
 
 ### Team Meeting Schedule
