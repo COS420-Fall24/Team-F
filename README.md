@@ -52,8 +52,5 @@ Statement 1:
 
 Statement 2:
 
-- It is hard to understand people's emotions over texts
-- People can interpret the other person's emotions wrongly when they receive a text
-- Some communication platforms use shorthand tone indicators to express emotions
-- These tone indicators are commonly misremembered and misunderstood
-- How can we help people communicate their emotions online?
+In text-based communication, it is often difficult to understand the emotions of the person sending the message, leading to frequent misinterpretation. When emotions are misunderstood, it can cause confusion, frustration, or even damage relationships. Accurately conveying emotion fosters better communication and understanding between individuals. Some platforms attempt to address this issue with shorthand tone indicators, such as "/s" for sarcasm or "/j" for joking, but these are often unclear to readers or inconsistently used and remembered due to lack of standardization across platforms. For example, a sender might use "/s" in one context, but the recipient may be unfamiliar with the notation, leading to miscommunication. Additionally, questions arise of how to improve emotional clarity. How can senders better express their emotions online, particularly in text-based formats? How can platforms facilitate clearer emotional understanding to prevent miscommunication and enhance the quality of conversations? 
+
