@@ -45,6 +45,8 @@ In text-based communication, it is often difficult to understand the emotions of
 
 ## React App Information
 
+(Past this point is the default React README)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Available Scripts
