@@ -41,7 +41,7 @@ Team Firetruck: Roles, First and Last Names
 
 ### Quality Checking Policy
 
--   The team will assign quality checking roles at the beginning of a sprint. Members that are working on similar features, documents, or other tasks will quality check for each other. Quality checking can be self assigned or appointed by other members. However, no one single member should handle a majority of the quality checking. To ensure that everything can be quality checked in an appropriate time, quality checking should be assigned evenly across the team. When something has been quality checked and determined to pass the quality check, it should be moved from the "Quality Checking" tab of the Kanban to the "Done" tab. This can be done by changing the status of the task.
+-   The team will assign quality checking roles at the beginning of a sprint. Members that are working on similar features, documents, or other tasks will quality check for each other. Quality checking can be self assigned or appointed by other members. However, no one single member should handle a majority of the quality checking. To ensure that everything can be quality checked in an appropriate time, quality checking should be assigned evenly across the team. When something has been quality checked and determined to pass the quality check, it should be moved from the "Quality Checking" tab of the Kanban to the "Done" tab. This can be done by changing the status of the task. Quality checking should be done 24 hours prior to the deliverable due date to ensure time for changes to be made.
 
 ### Team Meeting Schedule
 
