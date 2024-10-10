@@ -39,6 +39,10 @@ Team Firetruck: Roles, First and Last Names
 
 -   The **@team-f** channel in the COS420 Discord server will serve as our primary form of communication. Members are expected to reply to messages as promptly as they can. There is no structured amount of time that anyone is expected to respond, as long as responses are being sent within a reasonable amount of time (less than 12 hours). The **@everyone** tag is reserved ONLY for cases where everyone's attention is truly needed. It is appropriate to use the **@mention** tag whenever necessary to get the attention of a single individual or a select few individuals. Questions, comments and concerns should be clear and directly situated for the appropriate person and it should not be confusing who the message is intended for.
 
+### Quality Checking Policy
+
+-   The team will assign quality checking roles at the beginning of a sprint. Members that are working on similar features, documents, or other tasks will quality check for each other. Quality checking can be self assigned or appointed by other members. However, no one single member should handle a majority of the quality checking. To ensure that everything can be quality checked in an appropriate time, quality checking should be assigned evenly across the team. When something has been quality checked and determined to pass the quality check, it should be moved from the "Quality Checking" tab of the Kanban to the "Done" tab. This can be done by changing the status of the task.
+
 ### Team Meeting Schedule
 
 -   Scrum Stand Up & Sprint Kickoffs: **Mondays @ 5-6pm**
