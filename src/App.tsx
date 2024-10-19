@@ -1,26 +1,32 @@
 import React from "react";
-import logo from "./logo.svg";
+import { ChakraProvider, Box, Text } from "@chakra-ui/react";
 import "./App.css";
 
 function App(): React.JSX.Element {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>COS 420 Fall 2024 - Team F</p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
-        </div>
+        <ChakraProvider>
+            <div className="App">
+                <header className="App-header">
+                    <Box
+                        w="100%"
+                        h="100px"
+                        bgGradient="linear(to-r, #1928FA, #CC0080 ,yellow.400)"
+                    >
+                        <Text
+                            bgGradient="linear(to-r, #ffffaa, #FF1180)"
+                            bgClip="text"
+                            fontSize="6xl"
+                            fontWeight="extrabold"
+                            textAlign="left"
+                            marginLeft="5vw"
+                        >
+                            VibeCheque
+                        </Text>
+                    </Box>
+                </header>
+                <body className="App-body"></body>
+            </div>
+        </ChakraProvider>
     );
 }
 
