@@ -1,26 +1,76 @@
 import React from "react";
-import logo from "./logo.svg";
+import { ChakraProvider, Text } from "@chakra-ui/react";
+//import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
+import { Link } from "@chakra-ui/react";
+import { Flex, Spacer } from "@chakra-ui/react";
 import "./App.css";
 
 function App(): React.JSX.Element {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>COS 420 Fall 2024 - Team F</p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
+        <ChakraProvider>
+            <Grid
+                templateAreas={`"header"
+                  "main"`}
+                gridTemplateRows={"100px 1fr"}
+                gridTemplateColumns={"100vw"}
+                h="100vh"
+                gap="0"
+                color="blackAlpha.700"
+            >
+                <GridItem
+                    pl="2"
+                    bgGradient="linear(to-br, gray.800, #CC0080, yellow.400)"
+                    area={"header"}
                 >
-                    Learn React
-                </a>
-            </header>
-        </div>
+                    <Flex justify="center" align="center">
+                        <Text
+                            bgGradient="linear(to-r, #ffffea, #ff1180 80%)"
+                            bgClip="text"
+                            fontSize="6xl"
+                            fontWeight="extrabold"
+                            textAlign="left"
+                            marginLeft="5vw"
+                            marginRight="3vw"
+                        >
+                            VibeCheque
+                        </Text>
+                        <Link
+                            color="#ffffea"
+                            fontSize="24px"
+                            fontWeight="extrabold"
+                            textAlign="center"
+                            marginLeft="3vw"
+                        >
+                            Home
+                        </Link>
+                        <Link
+                            color="#ffffea"
+                            fontSize="24px"
+                            fontWeight="extrabold"
+                            textAlign="center"
+                            marginLeft="3vw"
+                        >
+                            About
+                        </Link>
+                        <Spacer />
+                        <Spacer />
+                        <Spacer />
+                        <Link
+                            color="#ffffea"
+                            fontSize="24px"
+                            fontWeight="extrabold"
+                            textAlign="center"
+                            marginRight="5vw"
+                            marginLeft="3vw"
+                        >
+                            Download
+                        </Link>
+                    </Flex>
+                </GridItem>
+                <GridItem pl="2" bg="pink.100" area={"main"}></GridItem>
+            </Grid>
+        </ChakraProvider>
     );
 }
 
