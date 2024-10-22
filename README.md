@@ -53,17 +53,21 @@ Team Firetruck: Roles, First and Last Names
 
 In text-based communication, it is often difficult to understand the emotions of the person sending the message, leading to frequent misinterpretation. When emotions are misunderstood, it can cause confusion, frustration, or even damage relationships. Accurately conveying emotion fosters better communication and understanding between individuals. Some platforms attempt to address this issue with shorthand tone indicators, such as "/s" for sarcasm or "/j" for joking, but these are often unclear to readers or inconsistently used and remembered due to lack of standardization across platforms. For example, a sender might use "/s" in one context, but the recipient may be unfamiliar with the notation, leading to miscommunication. Additionally, questions arise of how to improve emotional clarity. How can senders better express their emotions online, particularly in text-based formats? How can platforms facilitate clearer emotional understanding to prevent miscommunication and enhance the quality of conversations?
 
-## React App Information
+### React App Information
 
 (Past this point is the default React README)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
-#### `npm start`
+### `npm install`
+
+Installs the package and its related dependencies. Can be run with or without arguments. When run without arguments, npm install downloads dependencies defined in a package.json file and generates a node_modules folder with the installed modules.
+
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -71,12 +75,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-#### `npm test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### `npm run build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -86,7 +90,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### `npm run eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
