@@ -11,9 +11,9 @@ function App(): React.JSX.Element {
         <ChakraProvider>
             <Router>
                 <Navbar />
-                <Box height="100vh" bgColor="red.100">
+                <Box minH="100vh" bgColor="red.100">
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="/home" element={<Home />} />
                         <Route path="/about" element={<About />} />
                     </Routes>
                 </Box>

@@ -24,7 +24,7 @@ function Navbar() {
                     >
                         VibeCheque
                     </Text>
-                    <Link href="/">Home</Link>
+                    <Link href="/home">Home</Link>
                     <Link href="/about">About</Link>
                     <Spacer />
                     <Link marginRight="3vw">Download</Link>
