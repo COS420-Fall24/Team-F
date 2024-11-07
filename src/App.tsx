@@ -13,7 +13,7 @@ function App(): React.JSX.Element {
                 <Navbar />
                 <Box minH="100vh" bgColor="red.100">
                     <Routes>
-                        <Route path="/home" element={<Home />} />
+                        <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                     </Routes>
                 </Box>
