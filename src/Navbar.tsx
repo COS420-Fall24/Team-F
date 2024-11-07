@@ -27,7 +27,12 @@ function Navbar() {
                     <Link href="/home">Home</Link>
                     <Link href="/about">About</Link>
                     <Spacer />
-                    <Link marginRight="3vw">Download</Link>
+                    <Link
+                        href="https://discord.com/oauth2/authorize?client_id=1295481669603688499"
+                        marginRight="3vw"
+                    >
+                        Download
+                    </Link>
                 </Flex>
             </Box>
         </ChakraProvider>

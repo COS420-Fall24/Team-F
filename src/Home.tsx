@@ -1,10 +1,27 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import React from "react";
-import { ChakraProvider, Flex, Text, Heading, Box } from "@chakra-ui/react";
+import {
+    ChakraProvider,
+    Flex,
+    Text,
+    Heading,
+    Box,
+    Image,
+} from "@chakra-ui/react";
 
 const Home = () => {
     return (
         <ChakraProvider>
             <Box paddingTop="12" paddingRight="20%" paddingLeft="20%">
+                <Flex justifyContent="center">
+                    <Image
+                        src={require("./images/logo.png")}
+                        borderRadius="full"
+                        className="App-logo"
+                        alt="logo"
+                        boxSize="200"
+                    />
+                </Flex>
                 <Flex w="100%" marginBottom="8" marginTop="10">
                     <Heading> What is VibeCheque? </Heading>
                 </Flex>
