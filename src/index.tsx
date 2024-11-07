@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style/index.css";
 import App from "./App.tsx";
-import About from "./About.tsx";
 import reportWebVitals from "./reportWebVitals.ts";
 
 const root = ReactDOM.createRoot(
@@ -11,7 +10,6 @@ const root = ReactDOM.createRoot(
 root.render(
     <React.StrictMode>
         <App />
-        <About />
     </React.StrictMode>,
 );
 
