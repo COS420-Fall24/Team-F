@@ -25,7 +25,7 @@ function About(): React.JSX.Element {
                 <Box width="max">
                     <Image
                         // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-                        src={require("./images/izge.jpg")}
+                        src={require("./images/noah.jpg")}
                         borderRadius="full"
                         boxSize="150px"
                     />
