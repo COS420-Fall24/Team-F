@@ -78,7 +78,7 @@ function About(): React.JSX.Element {
                     <Box>
                         <Image
                             // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-                            src={require("./images/izge.jpg")}
+                            src={require("./images/Aiden.jpg")}
                             borderRadius="full"
                             boxSize="150px"
                         />
