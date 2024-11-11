@@ -7,7 +7,7 @@ describe("testing homepage", () => {
         render(<App />);
     });
     test('homepage renders "VibeCheque" to the screen', () => {
-        const applicationName = screen.getByText(/VibeCheque/i);
+        const applicationName = screen.getAllByText(/VibeCheque/)[0];
         expect(applicationName).toBeInTheDocument();
     });
 
