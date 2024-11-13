@@ -1,13 +1,13 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import App from "./App.tsx";
+import App from "../App.tsx";
 
 describe("testing homepage", () => {
     beforeEach(() => {
         render(<App />);
     });
     test('homepage renders "VibeCheque" to the screen', () => {
-        const applicationName = screen.getByText(/VibeCheque/i);
+        const applicationName = screen.getAllByText(/VibeCheque/)[0];
         expect(applicationName).toBeInTheDocument();
     });
 
