@@ -11,9 +11,13 @@ import {
 
 const Home = () => {
     return (
+        // ChakraProvider provides the theme context for the components
         <ChakraProvider>
+            {/* Box component is used to create a container with padding */}
             <Box paddingTop="12" paddingRight="20%" paddingLeft="20%">
+                {/* Flex component is used to create a flexible container with centered content */}
                 <Flex justifyContent="center">
+                    {/* Image component is used to display an image */}
                     <Image
                         src={require("./images/logo.png")}
                         borderRadius="full"
@@ -23,8 +27,10 @@ const Home = () => {
                     />
                 </Flex>
                 <Flex w="100%" marginBottom="8" marginTop="10">
+                    {/* Heading component is used to display a heading */}
                     <Heading> What is VibeCheque? </Heading>
                 </Flex>
+                {/* Text component is used to display a paragraph of text */}
                 <Text color="#202020" fontSize="xl">
                     VibeCheque is a Discord bot designed to address the
                     challenges of emotional miscommunication in text-based
